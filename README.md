@@ -15,32 +15,36 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/adazol123/mobile-first-react-boilerplate.git 'Your project name here'
+ > git clone https://github.com/adazol123/mobile-first-react-boilerplate.git 'Your project name here'
 ```
 
 Go to the project directory
 
 ```bash
-  cd 'Your project name here'
+ > cd 'Your project name here'
 ```
 
 Install dependencies
 
 ```bash
-  npm install
+ > npm install
+ # or
+ > yarn install
 ```
 
 Start the server
 
 ```bash
-  npm run start
+ > npm run start
+ # or
+ > yarn start
 ```
 
 Run the sass watcher
 
 ```bash
 
-$ sass --watch src/style/scss:src/style/css
+> sass --watch src/style/scss:src/style/css
 
 ```
 
