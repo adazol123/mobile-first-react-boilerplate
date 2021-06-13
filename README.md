@@ -68,4 +68,4 @@ $ sass --watch src/style/scss:src/style/css
 
 ### License
 
-[MIT](./LICENSE)
+[MIT](./license)
