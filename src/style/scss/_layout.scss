@@ -138,11 +138,14 @@
 .h {
     &-full {height: 100%;}
     &-max { height: 100vh;}
+    &-container {height: calc(100vh - 64px);}
     &-sm { min-height: 172px;}
+    &-md { min-height: 372px; margin-top: -72px;}
 }
 .w {
     &-full {width: 100%;}
     &-max { width: 100vh;}
+    &-container {max-width: 1200px; }
     &-sm { min-width: 172px;}
 }
 
@@ -160,7 +163,7 @@
     &-xl {@extend .container; max-width: 1280px;}
     &-2xl {@extend .container; max-width: 1536px;}
 
-    background:rgba($color: $gray-400,$alpha: 0.2);
+    background:rgba(var(--theme-container-background),$alpha: 0.55);
     // backdrop-filter:  blur(8px);
     width: 100%;
     border-radius: 8px;
@@ -204,6 +207,9 @@
     &-900{background: $gray-900;}
 }
 
+.hidden {
+    display: none;
+}
 
 
 
