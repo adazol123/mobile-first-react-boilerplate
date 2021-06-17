@@ -19,7 +19,7 @@ export const Nav = () => {
         <>
        <div className='flex-space-between-row p-md fixed-top nav-bg'>
            {isPathname === '/'? <button className='color-gray-500'>{menu}</button> : <button  onClick={() => history.goBack()}>{arrow_left}</button>}
-            <Link className='color-gray-400 logo'to={{ pathname:'/components',state: { fromDashboard: true }}} > {logo}</Link>
+            <Link className='color-gray-400 logo'to={{ pathname:'/',state: { fromDashboard: true }}} > {logo}</Link>
             {isPathname === '/'? <DarkToggle className='color-gray-500'/> : <> <button>{menu}</button> <DarkToggle className='hidden color-gray-500'/></>}
 
         </div> 

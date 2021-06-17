@@ -155,6 +155,7 @@
 .test {
     position: relative;
     background: transparent;
+    flex-flow: row wrap;
     z-index: 1;
 
     &::before {
