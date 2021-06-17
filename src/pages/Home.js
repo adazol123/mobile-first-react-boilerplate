@@ -21,20 +21,23 @@ export const Home = () => {
                 <h4 style={{color : 'var(--color-gray-700)'}}>SEO Friendly 😍</h4>
                 <p className='color-gray-500 my-md font-default'>100% optimized for search engine results ranking based on Lighthouse
                    </p>
-                <button className='button-ghost-md px-lg font-micro'>Docs</button>
+                   <Link className='color-gray-400 logo'to={{ pathname:'/about',state: { fromDashboard: true }}} > <button className='button-ghost-md px-lg font-micro'>Docs</button></Link>
+                
             </Card>
             <Card >
                 <h4 style={{color : 'var(--color-gray-700)'}}>PWA Optimized 📲 </h4>
                 <p className='color-gray-500 my-md font-default'>Fully optimized and ready to install on any devices by clicking the menu bar on your web browser then selecting Add to Home screen option
                    </p>
+                   <Link className='color-gray-400 logo'to={{ pathname:'/about',state: { fromDashboard: true }}} ><button  className='button-outline-md px-lg font-micro'>Docs</button></Link>
 
-                <button className='button-outline-md px-lg font-micro'>Docs</button>
+                
             </Card>
             <Card >
                 <h4 style={{color : 'var(--color-gray-700)'}}>API Routes 🐶</h4>
                 <p className='color-gray-500 my-md font-default'>Optionally create API endpoints to provide backend functionality.
                    </p>
-                   <button className='button-solid-md px-lg font-micro'>Docs</button>
+                   <Link className='color-gray-400 logo'to={{ pathname:'/about',state: { fromDashboard: true }}} ><button className='button-solid-md px-lg font-micro'>Docs</button></Link>
+                   
             </Card>
             <div className='flex-center-column gap-md h-sm'/>
 
