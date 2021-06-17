@@ -195,7 +195,6 @@
 }
 .flex-center-row {
   flex-direction: row;
-  flex-wrap: nowrap;
 }
 .flex-center-column {
   flex-direction: column;
@@ -607,6 +606,7 @@ button {
 .test {
   position: relative;
   background: transparent;
+  flex-flow: column wrap;
   z-index: 1;
 }
 .test::before {
@@ -767,6 +767,13 @@ html[data-theme=light] {
 ::selection {
   background: var(--theme-text-selection);
   color: var(--theme-background);
+}
+
+* h1, h2, h3, h4, h5, h6, p, span {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 html, body {
