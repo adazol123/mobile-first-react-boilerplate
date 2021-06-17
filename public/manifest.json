@@ -22,7 +22,7 @@
         }
     ],
     "start_url": ".",
-    "display": "fullscreen",
+    "display": "standalone",
     "theme_color": "#5F77EC",
     "background_color": "#FFFFFF"
 }
